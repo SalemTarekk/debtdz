@@ -22,12 +22,16 @@ def create_app() -> Flask:
     from app.routes.debts import bp as debts_bp
     from app.routes.payments import bp as payments_bp
     from app.routes.dashboard import bp as dashboard_bp
+    from app.routes.articles import bp as articles_bp
+    from app.routes.sitemap import bp as sitemap_bp
 
     app.register_blueprint(auth_bp)
     app.register_blueprint(customers_bp)
     app.register_blueprint(debts_bp)
     app.register_blueprint(payments_bp)
     app.register_blueprint(dashboard_bp)
+    app.register_blueprint(articles_bp)
+    app.register_blueprint(sitemap_bp)
 
     init_db()
 

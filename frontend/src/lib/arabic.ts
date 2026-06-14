@@ -43,4 +43,8 @@ export const ar = {
   paymentAdded: 'تم تسجيل الدفعة بنجاح',
   customerAdded: 'تم إضافة العميل بنجاح',
   currency: 'د.ج',
+  blog: 'المدونة',
+  noArticles: 'لا توجد مقالات',
+  backToBlog: 'العودة إلى المدونة',
+  notFound: 'الصفحة غير موجودة',
 };

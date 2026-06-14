@@ -5,6 +5,7 @@ import { useAuth } from '../hooks/useAuth';
 const nav = [
   { to: '/', label: ar.dashboard },
   { to: '/customers', label: ar.customers },
+  { to: '/blog', label: ar.blog },
 ];
 
 export function Layout() {

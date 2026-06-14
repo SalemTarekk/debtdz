@@ -12,5 +12,5 @@ class Base(DeclarativeBase):
 
 
 def init_db():
-    from app.models import user, customer, debt, payment
+    from app.models import user, customer, debt, payment, article
     Base.metadata.create_all(bind=engine)
